@@ -1,0 +1,152 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.headerLogo{
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+
+}
+
+.headerRight{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8px;
+}
+
+.container1, header, footer{
+    background-color: #1F2937;
+    color: white;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img[src*="img/odin.jpg"]{
+    width: 200px
+}
+
+.hero {
+    padding: 75px;
+}
+
+.heromain{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+font-size: 48px;
+font-weight: 900;
+}
+
+.herosub{
+    font-size: 18px;
+    padding-bottom: 16px;
+    padding-top: 8px;
+}
+
+.heroimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px
+}
+
+button{
+    background-color: #3882f6;
+    padding: 6px 18px 6px 18px;
+    border: 1px solid #3882f6;
+    border-radius: 10px;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    padding: 16px;
+    
+}
+
+.infoHead{
+    text-align: center;
+    padding: 16px;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+    padding: 75px;
+}
+
+img[src*="/img/viking.png"]{
+    width: 100px;
+    border: 5px solid blue;
+    border-radius: 15px;
+}
+
+.info{
+    max-width: 150px;
+}
+
+
+.container3{
+    background-color: #E5E7EB ;
+    display: flex;
+    flex-direction: column;
+    padding:100px;
+}
+
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.quoter{
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 600;
+    align-self: flex-end;
+    padding-right: 100px;
+}
+
+.container4{
+padding:100px
+}
+
+.action{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 12px;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.call{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.button2{
+    border-color: white;
+}
